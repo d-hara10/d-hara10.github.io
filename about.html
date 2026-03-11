@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Daniel Hara</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">DH.dev</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page-wrap">
+  <div class="section-header">
+    <span class="section-num">00</span>
+    <h1 class="section-title">About Me</h1>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="about-grid">
+    <!-- PHOTO -->
+    <div class="about-photo-wrap">
+      <!-- Replace with: <img src="assets/headshot.jpg" alt="Daniel Hara" class="about-photo"/> -->
+      <div class="photo-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+        <span style="font-family:var(--mono);font-size:0.65rem;letter-spacing:0.1em;color:var(--text-muted);">ADD PHOTO HERE</span>
+      </div>
+      <p class="photo-caption">Daniel Hara · Los Angeles, CA</p>
+
+      <div style="display:flex;flex-direction:column;gap:0;margin-top:1.5rem;border:1px solid var(--border);">
+        <a href="https://github.com/d-hara10" target="_blank" class="contact-link" style="font-size:0.8rem;">
+          <span class="link-icon">GH</span>
+          <span class="link-text">github.com/d-hara10</span>
+          <span class="link-arrow">↗</span>
+        </a>
+        <a href="https://linkedin.com/in/danielhara" target="_blank" class="contact-link" style="font-size:0.8rem;">
+          <span class="link-icon">LI</span>
+          <span class="link-text">linkedin.com/in/danielhara</span>
+          <span class="link-arrow">↗</span>
+        </a>
+        <a href="mailto:danielhara@ucla.edu" class="contact-link" style="font-size:0.8rem;">
+          <span class="link-icon">EM</span>
+          <span class="link-text">danielhara@ucla.edu</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="resume.pdf" target="_blank" class="contact-link" style="font-size:0.8rem;">
+          <span class="link-icon">CV</span>
+          <span class="link-text">Resume (PDF)</span>
+          <span class="link-arrow">↓</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- BODY TEXT -->
+    <div class="about-body">
+      <p>
+        I'm Daniel Hara, a Statistics and Data Science student at UCLA (graduating June 2026) 
+        with a minor in Data Science Engineering and a 3.7 GPA. I focus on applied machine 
+        learning — building systems that are statistically sound and actually useful in production.
+      </p>
+
+      <p>
+        I'm currently a Data Science Intern at <strong style="color:var(--text);">WagerWire</strong>, 
+        a sports betting marketplace in Los Angeles. My work there spans Bayesian modeling for 
+        ambassador efficiency, R/SQL analytics pipelines, and Looker Studio dashboards — 
+        translating raw PostgreSQL data into insights that inform product and business decisions. 
+        I was extended from a summer internship to part-time during the academic year based on 
+        strong performance.
+      </p>
+
+      <p>
+        My coursework has covered the full stack of modern data science: probability theory, 
+        natural language processing, neural networks and deep learning, data mining, regression, 
+        optimization, and Monte Carlo methods. I apply these foundations directly in projects — 
+        from fine-tuning transformers to building end-to-end Dockerized ML applications.
+      </p>
+
+      <p>
+        I'm drawn to problems where data is messy, stakes are real, and the gap between 
+        a good model and a bad one actually matters. Sports analytics, finance, and 
+        consumer-facing ML applications are where that overlap tends to be sharpest.
+      </p>
+
+      <!-- SKILLS -->
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">R</span>
+            <span class="tag">Bash</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>ML / DL</h4>
+          <div class="skill-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">XGBoost</span>
+            <span class="tag">HuggingFace</span>
+            <span class="tag">FinBERT</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Frameworks &amp; Tools</h4>
+          <div class="skill-tags">
+            <span class="tag">FastAPI</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Git</span>
+            <span class="tag">Jupyter</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Data &amp; Analytics</h4>
+          <div class="skill-tags">
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Looker Studio</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Matplotlib</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="edu-card" style="margin-top:2.5rem;">
+        <div>
+          <div class="school">University of California, Los Angeles</div>
+          <div class="degree">B.S. Statistics and Data Science · Minor in Data Science Engineering · GPA: 3.7</div>
+          <div class="coursework">
+            Relevant coursework: <span>Probability · NLP · Data Mining · Neural Networks &amp; Deep Learning · Regression · Optimization · Monte Carlo Methods</span>
+          </div>
+        </div>
+        <div class="date">Sep 2024 – Jun 2026</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Daniel Hara</p>
+  <p>Los Angeles, CA</p>
+</footer>
+
+</body>
+</html>
